@@ -5,9 +5,9 @@ const Home: NextPage = () => {
   return (
     <Layout
      title='Página inicial'
-     subtitle='Felipe é legal demais'
+     subtitle='Página inicial'
     >
-      <h3>Felipe</h3>
+      <h3>Página inicial</h3>
     </Layout>
   )
 }
