@@ -1,5 +1,6 @@
 import { IconHome, IconOut, IconSettings, IconNotification } from "../icons";
 import ItemMenu from "./ItemMenu";
+import Logo from "./Logo";
 
 export default function LateralMenu(){
     return (
@@ -13,7 +14,7 @@ export default function LateralMenu(){
                 bg-gradient-to-r from-indigo-500 to-purple-800
                 h-20 w-20
             `}>
-                
+                <Logo />
             </div>
             <ul className="flex-grow">
                 <ItemMenu url="/" text="Início" icon={IconHome} />
